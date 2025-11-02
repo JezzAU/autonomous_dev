@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# State files
+.autonomous_state.json
+autonomous_progress.log
+supervisor.log
+nohup.out
+
+# Task queue (contains your specific tasks)
+# Uncomment if you don't want to commit your task queue
+# task_queue.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

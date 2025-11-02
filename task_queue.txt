@@ -1,0 +1,28 @@
+# Autonomous Development Task Queue
+#
+# Instructions:
+# - One task per line
+# - Tasks are processed in order (FIFO)
+# - Lines starting with # are ignored
+# - Empty lines are ignored
+#
+# Task Format Examples:
+# - "Implement CacheManager from forge.aiuml/design/components/cache.aiuml following ADR-003"
+# - "Write unit tests for CacheManager with >80% coverage"
+# - "Fix bug #42: Null pointer in NavigationService.goto_entity()"
+# - "Add documentation for SecurityService public methods"
+#
+# Tips:
+# - Be specific (reference design files, ADRs, bug numbers)
+# - One task = one logical unit of work
+# - Keep tasks focused (30-60 min each)
+# - Complex work = multiple tasks
+#
+# The supervisor will process these autonomously during configured hours
+# (default: 10 PM - 6 AM night shift = 8 hours)
+
+# Example tasks (uncomment to use):
+# Implement StorageManager from forge.aiuml/design/components/storage.aiuml
+# Write unit tests for StorageManager
+# Run validation and fix any BLOCKED methods
+# Update CLAUDE.md with latest architecture changes
